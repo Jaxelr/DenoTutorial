@@ -3,7 +3,7 @@
 These are sample commands im learning for deno, taken from [this article](https://blog.appsignal.com/2022/02/09/an-introduction-to-deno-is-it-better-than-nodejs.html)
 
 
-Basic Commands:
+## Basic Commands
 
 `deno --help`
 `deno info` 
@@ -40,3 +40,8 @@ Bundling from typescript to javascript:
 
 Running unit tests, it automatically regexes any file with *_test.ts || *.test.ts:
 `deno test --no-check`
+
+## Examples
+
+Deno supports css using the %c syntax:
+`deno run colors.ts`

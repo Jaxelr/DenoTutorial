@@ -43,5 +43,8 @@ Running unit tests, it automatically regexes any file with *_test.ts || *.test.t
 
 ## Examples
 
-Deno supports css using the %c syntax:
+Deno supports css using the %c syntax on logs:
 `deno run colors.ts`
+
+Import info from another file:
+`deno run import.ts`

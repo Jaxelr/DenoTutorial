@@ -48,3 +48,7 @@ Deno supports css using the %c syntax on logs:
 
 Import info from another file:
 `deno run import.ts`
+
+Import multiple exports dependencies from a single file:
+
+`deno run --no-check management.ts`

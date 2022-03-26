@@ -52,3 +52,7 @@ Import info from another file:
 Import multiple exports dependencies from a single file:
 
 `deno run --no-check management.ts`
+
+Import json file from file system:
+
+`deno run --allow-read  importJson.ts`

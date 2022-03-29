@@ -56,3 +56,7 @@ Import multiple exports dependencies from a single file:
 Import json file from file system:
 
 `deno run --allow-read  importJson.ts`
+
+Parse json data using classic javascript functions:
+
+`deno run parseJson.ts`

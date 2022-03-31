@@ -60,3 +60,7 @@ Import json file from file system:
 Parse json data using classic javascript functions:
 
 `deno run parseJson.ts`
+
+Interact with user on cmd line:
+
+`deno run inputPrompts.ts`

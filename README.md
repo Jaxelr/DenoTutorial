@@ -64,3 +64,7 @@ Parse json data using classic javascript functions:
 Interact with user on cmd line:
 
 `deno run inputPrompts.ts`
+
+Get Process information:
+
+`deno run process.ts`

@@ -68,3 +68,7 @@ Interact with user on cmd line:
 Get Process information:
 
 `deno run process.ts`
+
+Interact with Environment variables:
+
+`deno run --allow-env envVar.ts` 

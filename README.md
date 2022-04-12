@@ -72,3 +72,7 @@ Get Process information:
 Interact with Environment variables:
 
 `deno run --allow-env envVar.ts` 
+
+Parse arguments from the command line:
+
+`deno run --no-check  args.ts  Deno Sushi --help --version=1.0.0 --no-color`

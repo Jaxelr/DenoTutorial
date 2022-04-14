@@ -76,3 +76,7 @@ Interact with Environment variables:
 Parse arguments from the command line:
 
 `deno run --no-check  args.ts  Deno Sushi --help --version=1.0.0 --no-color`
+
+Reading files:
+
+`deno run --allow-read readFiles.ts`

@@ -80,3 +80,7 @@ Parse arguments from the command line:
 Reading files:
 
 `deno run --allow-read readFiles.ts`
+
+Writing files: 
+
+`deno run --allow-read --allow-write --no-check writeFile.ts`

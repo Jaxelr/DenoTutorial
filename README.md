@@ -84,3 +84,7 @@ Reading files:
 Writing files: 
 
 `deno run --allow-read --allow-write --no-check writeFile.ts`
+
+Renaming files:
+
+`deno run --allow-read --allow-write renameFile.ts`

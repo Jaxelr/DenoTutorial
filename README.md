@@ -88,3 +88,7 @@ Writing files:
 Renaming files:
 
 `deno run --allow-read --allow-write renameFile.ts`
+
+Handling temporary files and directories:
+
+`deno run --allow-read --allow-write tempFile.ts`

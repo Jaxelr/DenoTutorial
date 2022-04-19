@@ -92,3 +92,7 @@ Renaming files:
 Handling temporary files and directories:
 
 `deno run --allow-read --allow-write tempFile.ts`
+
+Creating and removing directories:
+
+`deno run --allow-read --allow-write directories.ts`

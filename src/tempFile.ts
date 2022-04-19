@@ -41,17 +41,20 @@ console.log("Temp dir path:", tempDirPath);
 // Cleanup
 await Deno.remove(tempDirPath);
 
+const tempPath = "./tmp";
+
 // With the same features as temp file
 const tempDirPath2 = await Deno.makeTempDir({
     prefix: "logs_",
     suffix: "_folder",
-    dir: "./tmp",
+    dir: tempPath,
   });
 
 console.log("Temp dir path 2:", tempDirPath2);
 
 // Cleanup
 await Deno.remove(tempDirPath2);
+await Deno.remove(tempPath);
 
 
 // Synchronous version

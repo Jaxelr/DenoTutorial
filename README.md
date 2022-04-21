@@ -96,3 +96,7 @@ Handling temporary files and directories:
 Creating and removing directories:
 
 `deno run --allow-read --allow-write directories.ts`
+
+Using the fetch API to make http requests:
+
+`deno run --allow-net http.ts`

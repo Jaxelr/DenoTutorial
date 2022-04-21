@@ -99,4 +99,4 @@ Creating and removing directories:
 
 Using the fetch API to make http requests:
 
-`deno run --allow-net http.ts`
+`deno run --allow-net fetch.ts`

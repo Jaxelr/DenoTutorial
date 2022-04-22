@@ -100,3 +100,7 @@ Creating and removing directories:
 Using the fetch API to make http requests:
 
 `deno run --allow-net fetch.ts`
+
+Run a simple server with routing management:
+
+`deno run --allow-net --no-check routing.ts`

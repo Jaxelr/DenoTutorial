@@ -104,3 +104,7 @@ Using the fetch API to make http requests:
 Run a simple server with routing management:
 
 `deno run --allow-net --no-check routing.ts`
+
+Run a simple web server streaming data:
+
+`deno run --allow-net --no-check streaming.ts`
